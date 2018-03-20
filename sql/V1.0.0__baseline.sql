@@ -11,7 +11,7 @@
 CREATE TABLE `user` (
   `id` int(11) NOT NULL,
   `username` varchar(50) NOT NULL,
-  `password` int(50) NOT NULL,
+  `password` varchar(50) NOT NULL,
   `email` varchar(50) NOT NULL,
   `last_login` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
