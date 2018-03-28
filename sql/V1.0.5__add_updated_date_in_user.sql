@@ -1,0 +1,1 @@
+ALTER TABLE `user` ADD `updated_date` DATETIME NULL AFTER `last_login`;
