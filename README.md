@@ -1,34 +1,33 @@
-Welcome to Flyway.
-------------------
-Database Migrations Made Easy.
+# Author Admin Database
 
+MySQL database migrations for author-admin-api (https://github.com/fayzandotcom/author-admin-api)
 
-Documentation
--------------
-You can find getting started guides and reference documentation at https://flywaydb.org
+## Platform/Framework
 
+1. MySQL
+2. Flyway (https://flywaydb.org)
 
-Contributing
-------------
-Here is the info on how you can contribute in various ways to the project: https://flywaydb.org/documentation/contribute/
+## Installation
 
+1. Download and install flyway from https://flywaydb.org
+2. Modify "flyway.conf" file under "conf" folder. Provide database url, user and password.
+3. Place the migration (.sql) files under "sql" folder of flyway installations.
+4. Apply migrations. `flyway migrate`
 
-License
--------
-Copyright (C) 2010-2015 Axel Fontaine
+## Contributing
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
 
-http://www.apache.org/licenses/LICENSE-2.0
+## History
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+Version: 1.0
+* Initial release.
 
+## License
 
-
-Flyway is a registered trademark of Boxfuse GmbH.
+GPLv2
+http://www.gnu.org/licenses/gpl-2.0.html
